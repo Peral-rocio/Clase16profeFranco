@@ -11,7 +11,7 @@ let palabras = [
     "cielo", //5
 ] //deberia darme : 24
 
-let contar = palabras.reduce((acumulador , palabra) => {
+let contar = palabras.reduce((acumulador, palabra) => {
     return acumulador + palabra.length
 } , 0);
 
