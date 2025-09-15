@@ -15,6 +15,6 @@ let numeros = [
 
 let dobleNumeros = numeros.map((numero) => {
     return numero *2
-})
+});
 
-console.log (dobleNumeros)
+console.log (dobleNumeros);
